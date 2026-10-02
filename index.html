@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuvvula Dyuthi Sree | Aspiring Data Analyst & CSE Undergraduate</title>
+    <meta name="description" content="Portfolio of Nuvvula Dyuthi Sree, Aspiring Data Analyst proficient in SQL, Python, Pandas, NumPy, Power BI, and Machine Learning.">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="Nuvvula Dyuthi Sree - Data Analyst Portfolio">
+    <meta property="og:description" content="Data Analysis, SQL Queries, Python Data Processing, and Machine Learning Projects.">
+    <meta property="og:type" content="website">
+
+    <!-- Font Awesome Icons CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Nuvvula Dyuthi Sree Home">
+                <span class="logo-box">NDS</span>
+                <span class="logo-text">Dyuthi Sree</span>
+            </a>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="assets/resume.pdf" class="btn btn-outline" download="Nuvvula_Dyuthi_Sree_Resume.pdf" target="_blank" rel="noopener">
+                    <i class="fa-solid fa-download"></i> <span>Resume</span>
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="hero-bg-grid"></div>
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-pill">
+                        <span class="badge-dot"></span> Available for Data Analyst Roles
+                    </div>
+                    <h1 class="hero-title">Nuvvula Dyuthi Sree</h1>
+                    <h2 class="hero-subtitle">Aspiring Data Analyst</h2>
+                    <p class="hero-description">
+                        Building robust data pipelines, processing structured datasets with Python & SQL, and engineering intelligent system solutions to drive data-informed decision-making.
+                    </p>
+                    
+                    <div class="hero-meta">
+                        <span><i class="fa-solid fa-location-dot"></i> Hyderabad, India</span>
+                        <span><i class="fa-solid fa-graduation-cap"></i> CSE Undergraduate (2022-2026)</span>
+                    </div>
+
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary"><i class="fa-solid fa-chart-line"></i> View Projects</a>
+                        <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-paper-plane"></i> Get In Touch</a>
+                        <a href="assets/resume.pdf" class="btn btn-outline" download="Nuvvula_Dyuthi_Sree_Resume.pdf"><i class="fa-solid fa-file-pdf"></i> Download Resume</a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <a href="https://linkedin.com/in/nuvvula-dyuthi-sree-ab60742a3" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="mailto:nuvvuladyuthisree@gmail.com" aria-label="Email Nuvvula Dyuthi Sree"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="tel:+918688838738" aria-label="Phone Call"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="terminal-card">
+                        <div class="terminal-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="terminal-title">analyst_profile.py</span>
+                        </div>
+                        <div class="terminal-body">
+                            <pre><code><span class="code-keyword">import</span> pandas <span class="code-keyword">as</span> pd
+<span class="code-keyword">import</span> numpy <span class="code-keyword">as</span> np
+
+candidate = {
+    <span class="code-string">"Name"</span>: <span class="code-string">"Nuvvula Dyuthi Sree"</span>,
+    <span class="code-string">"Role"</span>: <span class="code-string">"Aspiring Data Analyst"</span>,
+    <span class="code-string">"Core_Stack"</span>: [<span class="code-string">"SQL"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"Excel"</span>, <span class="code-string">"Power BI"</span>],
+    <span class="code-string">"Specializations"</span>: [<span class="code-string">"Data Cleaning"</span>, <span class="code-string">"Visualization"</span>, <span class="code-string">"Machine Learning"</span>],
+    <span class="code-string">"Education"</span>: <span class="code-string">"B.Tech CSE (CGPA: 8.0)"</span>,
+    <span class="code-string">"Status"</span>: <span class="code-string">"Ready to contribute to data-driven teams"</span>
+}
+
+print(pd.Series(candidate))</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">01. Background</span>
+                    <h2 class="section-title">About Me</h2>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-card main-about">
+                        <i class="fa-solid fa-user-astronaut card-icon"></i>
+                        <h3>Career Profile</h3>
+                        <p>
+                            I am an <strong>Aspiring Data Analyst</strong> with a strong academic foundation in Computer Science and Engineering. I specialize in data analysis, database management, and structured problem-solving.
+                        </p>
+                        <p>
+                            Experienced in leveraging <strong>SQL, Python (Pandas, NumPy), Excel</strong>, and <strong>Power BI</strong> for data processing and visualization. I have a proven record of engineering system-based solutions to optimize workflow efficiency, process image datasets using Machine Learning, and design secure blockchain-integrated data architectures.
+                        </p>
+                        <p>
+                            I am actively seeking opportunities to apply my analytical capabilities and technical skills to drive impactful, data-informed business decisions.
+                        </p>
+                    </div>
+
+                    <div class="about-highlights">
+                        <div class="stat-card">
+                            <span class="stat-num">8.0</span>
+                            <span class="stat-label">B.Tech CGPA (JNTUH)</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">SIH</span>
+                            <span class="stat-label">Smart India Hackathon Finalist</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">Core Technical Systems Developed</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num">NPTEL</span>
+                            <span class="stat-label">Multiple Programming Certifications</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">02. Expertise</span>
+                    <h2 class="section-title">Technical Capabilities</h2>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming & Data Libraries</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="skill-tag"><i class="fa-brands fa-python"></i> Python</span>
+                            <span class="skill-tag"><i class="fa-solid fa-table-cells"></i> Pandas</span>
+                            <span class="skill-tag"><i class="fa-solid fa-calculator"></i> NumPy</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Database Management</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="skill-tag"><i class="fa-solid fa-server"></i> SQL</span>
+                            <span class="skill-tag"><i class="fa-solid fa-filter"></i> Database Queries</span>
+                            <span class="skill-tag"><i class="fa-solid fa-link"></i> SQL Joins</span>
+                            <span class="skill-tag"><i class="fa-solid fa-plug"></i> JDBC</span>
+                        </div>
+                    </div>
+
+                    <!-- Analytics & Visualization -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3>Tools & Data Visualization</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="skill-tag"><i class="fa-solid fa-chart-column"></i> Power BI <small>(Beginner)</small></span>
+                            <span class="skill-tag"><i class="fa-solid fa-file-excel"></i> Microsoft Excel</span>
+                            <span class="skill-tag"><i class="fa-solid fa-chart-line"></i> Matplotlib</span>
+                        </div>
+                    </div>
+
+                    <!-- Core Concepts & Methodologies -->
+                    <div class="skill-category">
+                        <div class="category-header">
+                            <i class="fa-solid fa-brain"></i>
+                            <h3>Core Concepts & Methodologies</h3>
+                        </div>
+                        <div class="tag-cloud">
+                            <span class="skill-tag"><i class="fa-solid fa-broom"></i> Data Cleaning</span>
+                            <span class="skill-tag"><i class="fa-solid fa-square-root-variable"></i> Basic Statistics</span>
+                            <span class="skill-tag"><i class="fa-solid fa-robot"></i> Machine Learning</span>
+                            <span class="skill-tag"><i class="fa-solid fa-gears"></i> SDLC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">03. Portfolio Work</span>
+                    <h2 class="section-title">Key Technical Projects</h2>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-year">2026</span>
+                            <i class="fa-solid fa-shield-halved project-icon"></i>
+                        </div>
+                        <h3 class="project-title">Enhancing IoT Data Security using Proxy Re-encryption on Blockchain</h3>
+                        <p class="project-description">
+                            Developed a secure system to protect IoT-generated data by combining proxy re-encryption techniques with blockchain protocols. Ensured safe distributed data storage and access management without compromising privacy.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Implemented blockchain fundamentals for immutable data storage and controlled role-based access.</li>
+                            <li>Applied proxy re-encryption methods to protect data integrity and prevent unauthorized access.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Blockchain</span>
+                            <span>Proxy Re-Encryption</span>
+                            <span>IoT Security</span>
+                            <span>Data Protection</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-year">2025</span>
+                            <i class="fa-solid fa-face-smile-beam project-icon"></i>
+                        </div>
+                        <h3 class="project-title">AI Powered Missing Child Identification System</h3>
+                        <p class="project-description">
+                            Built an AI-driven image analysis solution designed to process and identify missing children using automated computer vision, deep learning, and classification models.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Processed and transformed complex facial image datasets using Python (Pandas and NumPy).</li>
+                            <li>Implemented Support Vector Machines (SVM) and deep learning architectures for pattern matching.</li>
+                            <li>Visualized model evaluation metrics and classification accuracy using Matplotlib.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>NumPy</span>
+                            <span>SVM</span>
+                            <span>Deep Learning</span>
+                            <span>Matplotlib</span>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project-card">
+                        <div class="project-header">
+                            <span class="project-year">2024</span>
+                            <i class="fa-solid fa-building-columns project-icon"></i>
+                        </div>
+                        <h3 class="project-title">University Management System</h3>
+                        <p class="project-description">
+                            Engineered a web-based database management application to streamline student applications, academic registration, and examination workflows.
+                        </p>
+                        <ul class="project-bullets">
+                            <li>Structured relational database tables using SQL and integrated backend connectivity via JDBC.</li>
+                            <li>Digitized manual paper-based processes, improving operational workflow efficiency.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>JDBC</span>
+                            <span>Database Management</span>
+                            <span>Web Systems</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">04. Academic Background</span>
+                    <h2 class="section-title">Education</h2>
+                </div>
+
+                <div class="timeline">
+                    <!-- B.Tech -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2022 – 2026</span>
+                                <span class="timeline-grade"><i class="fa-solid fa-award"></i> CGPA: 8.0</span>
+                            </div>
+                            <h3 class="timeline-title">B.Tech - Computer Science & Engineering</h3>
+                            <h4 class="timeline-sub">Malla Reddy College of Engineering for Women (Affiliated to JNTUH)</h4>
+                            <p class="timeline-desc">
+                                Core Coursework: Database Management Systems (DBMS), Data Structures, Software Development Life Cycle (SDLC), Machine Learning, and Python Programming.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Intermediate -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2020 – 2022</span>
+                                <span class="timeline-grade"><i class="fa-solid fa-percent"></i> Percentage: 77%</span>
+                            </div>
+                            <h3 class="timeline-title">Intermediate (MPC - Mathematics, Physics, Chemistry)</h3>
+                            <h4 class="timeline-sub">Sri Chaitanya Jr. College</h4>
+                        </div>
+                    </div>
+
+                    <!-- SSC -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="timeline-date"><i class="fa-solid fa-calendar-days"></i> 2019 – 2020</span>
+                                <span class="timeline-grade"><i class="fa-solid fa-star"></i> GPA: 10.0</span>
+                            </div>
+                            <h3 class="timeline-title">Secondary School Certificate (SSC)</h3>
+                            <h4 class="timeline-sub">Brahman Talent High School</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements & Certifications -->
+        <section class="achievements section" id="achievements">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">05. Recognition</span>
+                    <h2 class="section-title">Achievements & Certifications</h2>
+                </div>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-trophy"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-type">National Hackathon</span>
+                            <h3>Finalist – Smart India Hackathon</h3>
+                            <p>Engineered an innovative <strong>E-Waste Management Solution</strong> to address urban electronic waste collection, tracking, and recycling logistics.</p>
+                        </div>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon">
+                            <i class="fa-solid fa-certificate"></i>
+                        </div>
+                        <div class="achievement-info">
+                            <span class="achievement-type">Certification</span>
+                            <h3>NPTEL Certifications</h3>
+                            <p>Successfully certified in multiple <strong>NPTEL Courses</strong> covering advanced Programming and Technology fundamentals.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">06. Connection</span>
+                    <h2 class="section-title">Get In Touch</h2>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-info-side">
+                        <h3>Let's Collaborate</h3>
+                        <p>I am actively seeking Data Analyst opportunities and entry-level technical roles. Feel free to reach out directly via email, phone, or LinkedIn.</p>
+                        
+                        <div class="contact-details">
+                            <a href="mailto:nuvvuladyuthisree@gmail.com" class="contact-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <span class="item-label">Email</span>
+                                    <span class="item-val">nuvvuladyuthisree@gmail.com</span>
+                                </div>
+                            </a>
+
+                            <a href="tel:+918688838738" class="contact-item">
+                                <i class="fa-solid fa-phone"></i>
+                                <div>
+                                    <span class="item-label">Phone</span>
+                                    <span class="item-val">+91 86888 38738</span>
+                                </div>
+                            </a>
+
+                            <div class="contact-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <span class="item-label">Location</span>
+                                    <span class="item-val">Hyderabad, Telangana, India</span>
+                                </div>
+                            </div>
+
+                            <a href="https://linkedin.com/in/nuvvula-dyuthi-sree-ab60742a3" target="_blank" rel="noopener" class="contact-item">
+                                <i class="fa-brands fa-linkedin"></i>
+                                <div>
+                                    <span class="item-label">LinkedIn</span>
+                                    <span class="item-val">nuvvula-dyuthi-sree-ab60742a3</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="contact-action-side">
+                        <div class="action-box">
+                            <i class="fa-solid fa-file-arrow-down action-icon"></i>
+                            <h4>Need my full resume?</h4>
+                            <p>Download a copy of my formatted resume for offline viewing.</p>
+                            <a href="assets/resume.pdf" class="btn btn-primary" download="Nuvvula_Dyuthi_Sree_Resume.pdf">
+                                <i class="fa-solid fa-download"></i> Download PDF Resume
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <span class="logo-box">NDS</span>
+                <p>Nuvvula Dyuthi Sree &bull; Aspiring Data Analyst</p>
+            </div>
+            <div class="footer-copy">
+                &copy; <span id="current-year"></span> Nuvvula Dyuthi Sree. All rights reserved.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript File -->
+    <script src="index.js"></script>
+</body>
+</html>
